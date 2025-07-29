@@ -1,0 +1,24 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.jcleft {
+    display: flex;
+    justify-content: left;
+}
+
+.jcright {
+    display: flex;
+    justify-content: right;
+}
+
+.textc {
+    text-align: center;
+}

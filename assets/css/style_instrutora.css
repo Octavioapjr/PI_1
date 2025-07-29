@@ -1,0 +1,45 @@
+/* * {
+    border: 1px solid red;
+} */
+
+header {
+    background-color: #688197;
+}
+
+body {
+    background-color: #E1F1F6;
+}
+
+h1 {
+    color: #3A5A7A;
+}
+
+p {
+    color: #4B4F54;
+}
+
+#profile {
+    border-radius: 50%;
+    /* Makes the image circular */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* Ensures the image covers the area */
+}
+
+.card {
+    background: #F0F4F8;
+    width: 80%;
+    padding: 30px 65px 25px 55px;
+    gap: 65px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.card img {
+    height: 300px;
+    max-width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+

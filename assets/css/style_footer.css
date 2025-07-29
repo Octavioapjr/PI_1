@@ -1,0 +1,40 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* body {
+    font-family: 'Arial', sans-serif;
+} */
+
+.mFooter {
+    background-color: #EDF2F7 ;
+    color: #4A5568;
+    margin-top: 2rem;
+    padding: 1rem 1rem ;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    /* margin-bottom: 1rem; */
+}
+
+.social-icons a {
+    color: #4A5568;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f8d56b;
+    transform: translateY(-3px);
+}
+
+.copyright {
+    font-size: 0.9rem;
+    color: #4A5568;
+}

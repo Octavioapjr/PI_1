@@ -1,0 +1,205 @@
+/* 
+fundo #F9F9F9   
+texto #4A5568   
+títulos #2A4365   
+botão #4C7FE6   #FFFFFF 
+card #FFFFFF    
+  sombra #E2E8F0 
+  título #2C5282 
+  texto #4A5568 
+*/
+
+/* * {
+  border: 1px solid red;
+} */
+
+/* Reset e estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+    background: #F9F9F9;
+}
+
+/* Hero Section =============================================== */
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-content {
+    display: flex;
+    height: 100%;
+    padding: 0 4%;
+    align-items: center;
+    color: #4A4442;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+    flex: 1;
+    margin-top: -250px;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    /* margin-bottom: -2rem; */
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hero-text p {
+    font-size: 3.5rem;
+    font-family: 'Dancing Script';
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -500px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    margin-bottom: 1rem;
+    text-align: right;
+}
+
+.nav-links a {
+    color: #4A4442;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f8d56b;
+}
+
+/* section cards ================================================ */
+.caixa {
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Adjust spacing between cards */
+    gap: 10px;
+    /* This will align items to the top */
+    align-items: flex-start; 
+}
+
+.caixa img{
+    width: 400px;
+    height: 400px;
+    aspect-ratio: 1/1;
+    border-radius: 30px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.card {
+    background: #ffffff;
+    width: 400px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px 10px 10px 10px;
+    gap: 10px;
+
+}
+
+.card h3 {
+    color: #2C5282;
+    margin: 0px;
+}
+
+.card p{
+    color: #4A5568;
+}
+
+.card a{
+    color: #4C7FE6;
+    text-decoration: none;
+}
+
+.card3 {
+    background: #ffffff;
+    max-width: 700px;
+    gap: 15px;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 15px 100px;
+    flex-direction: column;
+}
+
+.card3 p{
+    color: #4A5568;
+}
+
+.botao {
+    padding: 8px 15px;
+    color: #ffffff;
+    background: #4C7FE6;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 14px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none; */
+    
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-text {
+        margin-bottom: 3rem;
+    }
+
+    .hero-text p {
+        max-width: 100%;
+    }
+
+    .hero-nav {
+        justify-content: center;
+    }
+
+    .nav-links li {
+        text-align: center;
+    }
+
+    .cards-container {
+        flex-direction: column;
+    }
+}

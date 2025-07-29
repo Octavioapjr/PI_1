@@ -1,0 +1,125 @@
+/* 
+fundo #E8F1F5  
+texto #4A4A4A  
+títulos #7C9CA4  
+botão #A3C4D7  
+card #F0F4F8   
+*/
+
+/* * {
+  border: 1px solid red;
+} */
+
+
+header {
+    background-color: #BFCFDE;
+}
+
+header ul li a {
+    color: #4A4E4D;
+}
+
+body {
+    background: #E8F1F5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #7C9CA4;
+    margin: 10px 0px;
+}
+
+p {
+    color: #4A4A4A;
+}
+
+.caixa {
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Adjust spacing between cards */
+    gap: 10px;
+}
+
+.card {
+    background: #F0F4F8;
+    width: 600px;
+    /* borda arredondada */
+    border-radius: 10px;
+    /* pra fora */
+    margin: 10px;
+    /* pra dentro */
+    padding: 20px 10px 10px 10px;
+    gap: 10px;
+
+
+}
+
+/* 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BLCFnQDf6kg?si=jVXTxsKijpOY8r2n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+*/
+
+.card iframe {
+    height: 300px;
+    max-width: 560px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card iframe {
+    display: block;  /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.card h3{
+    margin: 10px 0px 0px 10px;
+}
+
+.card p {
+    margin: 5px 0px 0px 10px;
+}
+
+.card3 {
+    background: #F0F4F8;
+    width: 80%;
+    padding: 14px 289px;
+    gap: 15px;
+    border-radius: 10px;
+    margin: 25px;
+
+    flex-direction: column;
+}
+
+.card3 h2{
+    margin: 10px 0px 0px 0px;
+}
+
+/* .botao {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #A3C4D7;
+    border: none;
+    border-radius: 40px;
+} */
+
+.botao {
+    padding: 8px 15px;
+    color: #4A4A4A;
+    background: #A3C4D7;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 14px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none; */
+    
+}
