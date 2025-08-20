@@ -1,34 +1,6 @@
-/* 
-fundo #F1F4F3 
-texto #4A4E4D 
-títulos #A8D8D2 
-botão #B7E4D8 
-card #E2F0E4  
-*/
-
-header {
-    background-color: #d6e2de;
-}
-
-header ul li a {
-    color: #4A4E4D;
-}
-
-body {
-    background: #F1F4F3;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    color: #A8D8D2;
-    margin: 10px 0px;
-}
-
-p {
-    color: #4A4E4D;
-}
+/* * {
+  border: 1px solid red;
+} */
 
 .caixa {
     max-width: 80%;
@@ -40,7 +12,6 @@ p {
 }
 
 .card {
-    background: #E2F0E4;
     width: 450px;
     /* borda arredondada */
     border-radius: 10px;

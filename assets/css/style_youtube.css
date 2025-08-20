@@ -1,39 +1,6 @@
-/* 
-fundo #E8F1F5  
-texto #4A4A4A  
-títulos #7C9CA4  
-botão #A3C4D7  
-card #F0F4F8   
-*/
-
 /* * {
   border: 1px solid red;
 } */
-
-
-header {
-    background-color: #BFCFDE;
-}
-
-header ul li a {
-    color: #4A4E4D;
-}
-
-body {
-    background: #E8F1F5;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    color: #7C9CA4;
-    margin: 10px 0px;
-}
-
-p {
-    color: #4A4A4A;
-}
 
 .caixa {
     max-width: 80%;
@@ -45,7 +12,6 @@ p {
 }
 
 .card {
-    background: #F0F4F8;
     width: 600px;
     /* borda arredondada */
     border-radius: 10px;
@@ -83,7 +49,6 @@ p {
 }
 
 .card3 {
-    background: #F0F4F8;
     width: 80%;
     padding: 14px 289px;
     gap: 15px;

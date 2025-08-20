@@ -2,32 +2,7 @@
     border: 1px solid red;
 } */
 
-header {
-    background-color: #EFD6DC;
-}
-
-header ul li a {
-    color: #4A4A4A;
-}
-
-body {
-    background: #F7F2F3;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    color: #D09BB0;
-    margin: 10px 0px;
-}
-
-p {
-    color: #4A4A4A;
-}
-
 .card1 {
-    background: #F9E1E3;
     width: 80%;
     padding: 50px 249px;
     gap: 20px;
@@ -36,9 +11,7 @@ p {
     flex-direction: column;
 }
 
-
 .card {
-    background: #F9E1E3;
     width: 80%;
     padding: 30px 65px 25px 55px;
     gap: 65px;
@@ -55,7 +28,6 @@ p {
 
 
 .card2 {
-    background: #F9E1E3;
     width: 80%;
     padding: 50px 254px 50px 25px;
     gap: 15px;
@@ -69,7 +41,6 @@ p {
 }
 
 .card3 {
-    background: #F9E1E3;
     width: 80%;
     padding: 14px 289px;
     gap: 15px;
@@ -78,17 +49,6 @@ p {
 
     flex-direction: column;
 }
-
-/* .botao {
-    display: flex;
-    padding: 10px 20px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    background: #E7AABB;
-    border: none;
-    border-radius: 40px;
-} */
 
 .botao {
     padding: 8px 15px;

@@ -1,27 +1,35 @@
 
-function createNav(s_src, s_text) {
-    const o_ul = document.getElementById('nav_itens');
-    // Create a new list item
-    const o_li = document.createElement('li');
-    // Create the anchor element
+
+function createIcon(o_div, s_icon, s_src='') {
     const o_a = document.createElement('a');
-    o_a.href = s_src; // Set the href attribute
-    o_a.textContent = s_text; // Set the text content
-    // Append the anchor to the list item
-    o_li.appendChild(o_a);
-    // Append the list item to the unordered list
-    o_ul.appendChild(o_li);
+    o_a.href = s_src;
+    o_a.target = '_blank';
+    const o_i = document.createElement('i');
+    o_i.className = s_icon;
+    o_a.appendChild(o_i);
+    o_div.appendChild(o_a);
 }
 
-createNav('1_home.html', 'Inicio');
-createNav('2_instrutora.html', 'Instrutora');
-createNav('3_metodo.html', 'Método');
-createNav('4_agendamentos.html', 'Agendamentos');
-// createNav('5_blog.html', 'Blog');
-createNav('6_youtube.html', 'YouTube');
-createNav('7_contato_js.html', 'Contato');
-createNav('8_depoimento.html', 'Depoimentos');
+// get footer
+const o_footer = document.querySelector('footer');
+o_footer.className = 'mFooter';
 
+// create div - social icons
+let o_div = document.createElement('div');
+o_div.className = 'social-icons' 
 
-// =============================================
-o_nav = document.get
+// create icons
+createIcon(o_div, 'fab fa-facebook-f')
+createIcon(o_div, 'fab fa-instagram', 'https://www.instagram.com/sandra.ladwig/')
+createIcon(o_div, 'fab fa-youtube', 'https://www.youtube.com/@CanalSamadhi')
+createIcon(o_div, 'fab fa-whatsapp')
+
+o_footer.appendChild(o_div);
+
+// create div - copyright
+o_div = document.createElement('div');
+o_div.className = 'copyright';
+const o_p = document.createElement('p');
+o_p.innerHTML = '&copy; 2025 Sandra Ladwig. Todos os direitos reservados.';
+o_div.appendChild(o_p);
+o_footer.appendChild(o_div);

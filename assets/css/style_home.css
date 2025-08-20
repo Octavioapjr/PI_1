@@ -122,7 +122,6 @@ body {
 }
 
 .card {
-    background: #ffffff;
     width: 400px;
     border-radius: 10px;
     margin: 10px;
@@ -146,7 +145,6 @@ body {
 }
 
 .card3 {
-    background: #ffffff;
     max-width: 700px;
     gap: 15px;
     border-radius: 10px;
@@ -173,6 +171,14 @@ body {
     gap: 10px;
     border: none; */
     
+}
+
+.card, .card1, .card2, .card3 {
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+
+    background: #ffffff;
 }
 
 /* Responsividade */

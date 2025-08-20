@@ -1,15 +1,6 @@
-
-body {
-    background-color: #F9F7F7;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    color: #C49799;
-    margin: 10px 0px;
-}
+/* * {
+  border: 1px solid red;
+} */
 
 #contato .container {
     display: grid;
@@ -84,13 +75,11 @@ h4 {
 }
 
 #contato i {
-    color: #7C6A6A;
     width: 20px;
 }
 
 #contato p {
     margin: 15px 10px;
-    color: #7C6A6A;
 }
 
 .contato_direita p i {

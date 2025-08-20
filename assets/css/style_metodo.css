@@ -2,31 +2,12 @@
     border: 1px solid red;
 } */
 
-header {
-    background-color: #BE7AB5;
-}
-
-body {
-    background-color: #F5EAF2;
-}
-
-h1, h2, h3, h4 {
-    color: #8C5B8C;
-    margin: 10px 0px;
-}
-
-p {
-    color: #4A4A4A;
-}
-
 #introducao{
     width: 60%;
     margin: 20px 0px;
-    /* text-align: center; */
 }
 
 .card {
-    background: #ffffff;
     width: 80%;
     padding: 30px 65px 25px 55px;
     gap: 65px;
